@@ -1,0 +1,21 @@
+sudo apt-get update && apt-get upgrade
+
+# zsh
+sudo apt install zsh
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# python3.6
+sudo apt-get install build-essential
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.6
+sudo apt install python3.6-dev
+sudo apt-get install python3.6-venv
+
+# php7.2
+sudo apt-get install php
+# check installed modules
+php -m
+sudo apt-get install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
+sudo nano /etc/php/7.2/cli/php.ini
