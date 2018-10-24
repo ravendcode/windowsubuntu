@@ -17,6 +17,9 @@ alias pyscode='cd /mnt/d/Py/Code/sanic'
 alias pydcode='cd /mnt/d/Py/Code/django'
 alias pyfcode='cd /mnt/d/Py/Code/flask'
 
+# php alias
+alias phpunit='vendor/bin/phpunit'
+
 # python alias
 alias py='python3.6'
 alias pyp='sudo python3.6 -m pip'
