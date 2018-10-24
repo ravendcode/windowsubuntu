@@ -6,10 +6,12 @@ git config --global alias.co checkout
 git config --global alias.cm commit
 git config --global alias.s status
 git config --global alias.l log
+# if ubuntu
+git config --global credential.helper store
+# if windows
+git config --global credential.helper wincred
 # delete config setting
 git config --global --unset alias.l
-
-git config --global credential.helper wincred
 
 # lf
 git config --global core.autocrlf false
