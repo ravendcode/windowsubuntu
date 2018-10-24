@@ -1,0 +1,12 @@
+# windwos
+ssh-keygen -t rsa -b 4096 -C 'ravendcode@gmail.com'
+ssh-agent bash
+$ eval `ssh-agent -s`
+$ ssh-add .ssh/id_rsa
+$ exit
+# ubuntu
+## enter secret passphrase
+ssh-keygen -t rsa
+# add in github key
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com

@@ -1,0 +1,23 @@
+# C:\Users\Ravend\.gitconfig
+git config --global user.name "ravendcode"
+git config --global user.email ravendcode@gmail.com
+git config --global push.default matching
+git config --global alias.co checkout
+git config --global alias.cm commit
+git config --global alias.s status
+git config --global alias.l log
+# delete config setting
+git config --global --unset alias.l
+
+git config --global credential.helper wincred
+
+# lf
+git config --global core.autocrlf false
+git config --global core.eol lf
+
+# editor
+git config --global core.editor subl
+git config --global core.editor "'c:/program files/sublime text 3/subl.exe' -w"
+
+git config --list
+git config --global --list

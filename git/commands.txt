@@ -1,0 +1,37 @@
+# лог в одну строку
+git log --oneline
+
+# отобразить  лог в одну строку с поиском post
+git log --oneline --grep post
+
+# лог в одну строку с графиком
+git log --oneline --graph
+
+# удалить все до определенного коммита
+# копируем хеш
+git log
+git reset --hard b168eafddf35628baaa0a3fc1ce70c8a0c98913d
+
+# более безопасная, отменяет определнные коммиты не удаляя код
+git reset --soft b168eafddf35628baaa0a3fc1ce70c8a0c98913d
+
+# показать все ветки
+git branch
+
+# показать все ветки и отобразить последние коммиты
+git branch -v
+
+# создать бранч с именем feature-reporting
+git checkout -b feature-reporting
+
+# войти в ветку master
+git checkout master
+
+# соеденить ветку feature-reporting с master
+git merge feature-reporting
+
+# показать разницу конфликта
+git diff index.js
+
+# удалить  ветку
+git branch -d feature-reporting

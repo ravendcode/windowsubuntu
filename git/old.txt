@@ -1,0 +1,47 @@
+git add README.md
+git add .gitignore
+
+git add -A
+git commit -m "Ignored all .log files and added README.md."
+
+# after add file2 in .gitignore
+git rm --cached file2
+
+
+# Delete the current remote reference with
+
+git remote rm origin
+# Add the new remote
+
+git remote add origin <URL to new heroku app>
+# push to new domain
+
+git push -u origin master
+# The -u will set this up as tracked.
+
+
+git remote -v
+heroku git:remote -a falling-wind-1624
+git push heroku master
+
+# Change user
+# https://youruser:password@github.com/user/repo.git
+git remote set-url origin https:/kaigocode@github.com/kaigocode/LearnCppUdemy.git
+
+# Change repo
+git remote -v
+git remote set-url origin https://github.com/ravendcode/bookshop.git
+
+git commit -am "Add new model"
+
+# undo last commit
+git commit -m "Something terribly misguided"              (1)
+git reset HEAD~                                           (2)
+<< edit files as necessary >>                               (3)
+git add ...                                               (4)
+git commit -c ORIG_HEAD
+
+# rebuild .gitignore
+git rm -r --cached .
+git add .
+git commit -m "Add vendor folder to .gitignore"

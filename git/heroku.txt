@@ -1,0 +1,15 @@
+git remote -v
+heroku git:remote -a ravend-spa
+git push heroku master
+heroku run bash
+
+heroku logs --tail
+heroku restart -a blog-chi
+heroku ps
+heroku run "php app/console doctrine:migrations:migrate"
+heroku config:set NODE_ENV=staging
+
+[metadata.heroku]
+  root-package = "github.com/ravendcode/blog-chi"
+  go-version = "1.10"
+  install = [ "./..." ]
