@@ -17,5 +17,5 @@ sudo apt-get install python3.6-venv
 sudo apt-get install php
 # check installed modules
 php -m
-sudo apt-get install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
+sudo apt-get install zip unzip php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
 sudo nano /etc/php/7.2/cli/php.ini
