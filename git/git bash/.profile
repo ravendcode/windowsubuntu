@@ -13,6 +13,7 @@ alias gulpcode="cd D:/JavaScript/Code/gulp"
 alias vuecode="cd D:/JavaScript/Code/vue"
 # laravel
 alias a="php artisan"
+alias as="php artisan serve"
 alias phpunit="vendor/bin/phpunit"
 # py
 alias pyv="py -m venv venv"
