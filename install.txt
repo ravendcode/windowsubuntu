@@ -5,6 +5,12 @@ sudo apt install zsh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# hyper
+chsh -s /usr/bin/zsh
+# .hyper.js
+shell: 'wsl.exe',
+shellArgs: [],
+
 # python3.6
 sudo apt-get install build-essential
 sudo add-apt-repository ppa:deadsnakes/ppa

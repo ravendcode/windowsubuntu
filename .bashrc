@@ -17,6 +17,9 @@ alias pyscode='cd /mnt/d/Py/Code/sanic'
 alias pydcode='cd /mnt/d/Py/Code/django'
 alias pyfcode='cd /mnt/d/Py/Code/flask'
 
+# node alias
+alias y='yarn'
+
 # php alias
 alias phpunit='vendor/bin/phpunit'
 
