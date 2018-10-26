@@ -19,6 +19,7 @@ alias pyfcode='cd /mnt/d/Py/Code/flask'
 
 # node alias
 alias y='yarn'
+alias jest='./node_modules/.bin/jest'
 
 # php alias
 alias phpunit='vendor/bin/phpunit'
