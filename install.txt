@@ -19,6 +19,19 @@ sudo apt-get install python3.6
 sudo apt install python3.6-dev
 sudo apt-get install python3.6-venv
 
+# python3.7
+sudo apt-get install build-essential checkinstall python3.7-dev python-dev python-setuptools python-pip python-smbus
+sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
+    libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev zlib1g-dev openssl libffi-dev
+cd /usr/src
+sudo wget https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tgz
+sudo tar xzf Python-3.7.1.tgz
+cd Python-3.7.1
+sudo ./configure --enable-optimizations
+sudo make altinstall
+sudo apt-get install python3.7-venv
+sudo python3.7 -m pip install --upgrade pip
+
 # php7.2
 sudo apt-get install php
 # check installed modules
