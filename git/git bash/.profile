@@ -11,10 +11,12 @@ alias ngcode="cd D:/JavaScript/Code/ng"
 alias reactcode="cd D:/JavaScript/Code/react"
 alias gulpcode="cd D:/JavaScript/Code/gulp"
 alias vuecode="cd D:/JavaScript/Code/vue"
+# php
+alias p="vendor/bin/phpunit"
+alias pf="p --filter"
 # laravel
 alias a="php artisan"
 alias as="php artisan serve"
-alias phpunit="vendor/bin/phpunit"
 # py
 alias pyv="py -m venv venv"
 alias pyva="venv/Scripts/activate"
