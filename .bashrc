@@ -23,6 +23,11 @@ alias jest='./node_modules/.bin/jest'
 
 # php alias
 alias phpunit='vendor/bin/phpunit'
+alias pf='phpunit --filter'
+
+# laravel alias
+alias a='php artisan'
+alias as='php artisan serve'
 
 # python alias
 alias py='python3.7'
@@ -33,10 +38,6 @@ alias pyva='source venv/bin/activate'
 alias pyvd='deactivate'
 alias pypf='pip freeze > requirements.txt'
 alias pypir='pip install -r requirements.txt'
-
-# laravel alias
-alias a='php artisan'
-alias as='php artisan serve'
 
 # git alias
 alias gi='git init'
