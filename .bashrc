@@ -22,8 +22,8 @@ alias y='yarn'
 alias jest='./node_modules/.bin/jest'
 
 # php alias
-alias phpunit='vendor/bin/phpunit'
-alias pf='phpunit --filter'
+alias p='vendor/bin/phpunit'
+alias pf='p --filter'
 
 # laravel alias
 alias a='php artisan'
