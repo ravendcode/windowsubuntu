@@ -8,6 +8,7 @@ alias gocode='cd /mnt/d/Go/Code/src/github.com/ravendcode'
 alias jscode='cd /mnt/d/JavaScript/Code'
 alias phpcode='cd /mnt/d/PHP/Code'
 alias lcode='cd /mnt/d/PHP/Code/laravel'
+alias scode='cd /mnt/d/PHP/Code/symfony'
 alias jsncode='cd /mnt/d/JavaScript/Code/node'
 alias rscode='cd /mnt/d/Rust/Code'
 alias rbcode='cd /mnt/d/Ruby/Code'
@@ -28,6 +29,10 @@ alias pf='p --filter'
 # laravel alias
 alias a='php artisan'
 alias as='php artisan serve'
+
+# symfony alias
+alias c='php bin/console'
+alias cs='php bin/console server:run'
 
 # python alias
 alias py='python3.7'
