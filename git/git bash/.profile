@@ -12,6 +12,8 @@ alias ngcode="cd D:/JavaScript/Code/ng"
 alias reactcode="cd D:/JavaScript/Code/react"
 alias gulpcode="cd D:/JavaScript/Code/gulp"
 alias vuecode="cd D:/JavaScript/Code/vue"
+# gradle
+alias g="gradle"
 # php
 alias p="vendor/bin/phpunit"
 alias pf="p --filter"
