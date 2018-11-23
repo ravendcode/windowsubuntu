@@ -5,8 +5,9 @@ alias phpcode="cd D:/PHP/Code"
 alias lcode="cd D:/PHP/Code/laravel"
 alias pycode="cd D:/Py/Code"
 alias gocode="cd D:/Go/Code/src/github.com/ravendcode"
-alias jscode="cd D:/JavaScript/Code"
+alias jcode="cd D:/Java/Code"
 alias kcode="cd D:/Kotlin/Code"
+alias jscode="cd D:/JavaScript/Code"
 alias nodecode="cd D:/JavaScript/Code/node"
 alias ngcode="cd D:/JavaScript/Code/ng"
 alias reactcode="cd D:/JavaScript/Code/react"
@@ -35,3 +36,14 @@ alias glg="git log --oneline --graph"
 alias gcom="git co master"
 alias gcob="git co -b"
 alias gp="git push"
+
+function mkcd {
+  last=$(eval "echo \$$#")
+  if [ ! -n "$last" ]; then
+    echo "Enter a directory name"
+  elif [ -d $last ]; then
+    echo "\`$last' already exists"
+  else
+    mkdir $@ && cd $last
+  fi
+}
