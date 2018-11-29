@@ -22,6 +22,7 @@ alias ppf="pp --filter"
 # symfony
 alias c="bin/console"
 alias cs="c server:run"
+alias cr="c debug:router --show-controllers"
 alias p="bin/phpunit"
 alias pf="p --filter"
 # laravel
