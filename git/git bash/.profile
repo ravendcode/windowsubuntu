@@ -3,6 +3,7 @@ alias la="ls -la"
 # code
 alias phpcode="cd D:/PHP/Code"
 alias lcode="cd D:/PHP/Code/laravel"
+alias scode="cd D:/PHP/Code/symfony"
 alias pycode="cd D:/Py/Code"
 alias gocode="cd D:/Go/Code/src/github.com/ravendcode"
 alias jcode="cd D:/Java/Code"
@@ -16,7 +17,12 @@ alias vuecode="cd D:/JavaScript/Code/vue"
 # gradle
 alias g="gradle"
 # php
-alias p="vendor/bin/phpunit"
+alias pp="vendor/bin/phpunit"
+alias ppf="pp --filter"
+# symfony
+alias c="bin/console"
+alias cs="c server:run"
+alias p="bin/phpunit"
 alias pf="p --filter"
 # laravel
 alias a="php artisan"
