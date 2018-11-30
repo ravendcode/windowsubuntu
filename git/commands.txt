@@ -46,3 +46,7 @@ git revert
 git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
+
+# change your commit messages for commit already pushed + most recent commit:
+git commit --amend
+git push origin master --force
