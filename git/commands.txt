@@ -35,3 +35,14 @@ git diff index.js
 
 # удалить  ветку
 git branch -d feature-reporting
+
+# Для отката последнего локального коммита
+git reset
+
+# Для отката коммита, который вы запушили на сервер git revert HEAD
+git revert
+
+# update .gitignore
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
