@@ -4,11 +4,11 @@ alias la="ls -la"
 # code
 alias ncode="cd ~/Code/node"
 alias jcode="cd ~/Code/java"
-alias pycode="cd ~/Code/py"
-alias dcode="cd ~/Code/py/django"
 alias pcode="cd ~/Code/php"
 alias scode="cd ~/Code/php/symfony"
 alias lcode="cd ~/Code/php/laravel"
+alias pycode="cd ~/Code/py"
+alias dcode="cd ~/Code/py/django"
 # php
 alias pp="vendor/bin/phpunit"
 alias ppf="pp --filter"
