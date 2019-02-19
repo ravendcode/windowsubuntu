@@ -4,6 +4,8 @@ alias la="ls -la"
 # code
 alias ncode="cd ~/Code/node"
 alias jcode="cd ~/Code/java"
+alias pycode="cd ~/Code/py"
+alias dcode="cd ~/Code/py/django"
 alias pcode="cd ~/Code/php"
 alias scode="cd ~/Code/php/symfony"
 alias lcode="cd ~/Code/php/laravel"
@@ -19,6 +21,11 @@ alias pf="p --filter"
 # laravel
 alias a="php artisan"
 alias as="php artisan serve"
+# py
+alias pyv="py -m venv venv"
+alias pyva="venv/Scripts/activate"
+alias pyvd="deactivate"
+alias pys="py manage.py runserver"
 # git
 alias gs="git status"
 alias gc="git commit -m"
