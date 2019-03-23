@@ -2,13 +2,16 @@ alias d="cd /d"
 alias e="cd /e"
 alias la="ls -la"
 # code
-alias ncode="cd ~/Code/node"
-alias jcode="cd ~/Code/java"
-alias pcode="cd ~/Code/php"
-alias scode="cd ~/Code/php/symfony"
-alias lcode="cd ~/Code/php/laravel"
-alias pycode="cd ~/Code/py"
-alias dcode="cd ~/Code/py/django"
+codePath="~/Code"
+alias ncode="cd $codePath/node"
+alias jcode="cd $codePath/java"
+alias jscode="cd $codePath/js"
+alias pcode="cd $codePath/php"
+alias pscode="cd $codePath/php/symfony"
+alias plcode="cd $codePath/php/laravel"
+alias pycode="cd $codePath/py"
+alias pydcode="cd $codePath/py/django"
+alias gocode="cd $codePath/go/github.com/ravendcode"
 # php
 alias pp="vendor/bin/phpunit"
 alias ppf="pp --filter"
@@ -25,7 +28,10 @@ alias as="php artisan serve"
 alias pyv="py -m venv venv"
 alias pyva="venv/Scripts/activate"
 alias pyvd="deactivate"
-alias pys="py manage.py runserver"
+alias pipf="pip freeze > requirements.txt"
+alias pipr="pip install -r requirements.txt"
+alias dr="py manage.py runserver"
+alias da="django-admin.py"
 # git
 alias gs="git status"
 alias gc="git commit -m"
@@ -40,7 +46,7 @@ alias gp="git push"
 alias subl='"/c/Program Files/Sublime Text 3/sublime_text.exe"'
 
 function mkcd {
-  last=$(eval "echo \$$#")
+  last=$(eval "echo /$$#")
   if [ ! -n "$last" ]; then
     echo "Enter a directory name"
   elif [ -d $last ]; then
