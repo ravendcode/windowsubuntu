@@ -14,14 +14,14 @@ alias pycode="cd $codePath/py"
 alias pydcode="cd $codePath/py/django"
 alias gocode="cd $codePath/go/github.com/ravendcode"
 # php
-alias pp="vendor/bin/phpunit"
-alias ppf="pp --filter"
+alias p="vendor/bin/phpunit"
+alias pf="pp --filter"
 # symfony
 alias c="bin/console"
 alias cs="c server:run"
 alias cr="c debug:router --show-controllers"
-alias p="bin/phpunit"
-alias pf="p --filter"
+alias pp="bin/phpunit"
+alias ppf="p --filter"
 # laravel
 alias a="php artisan"
 alias as="php artisan serve"
