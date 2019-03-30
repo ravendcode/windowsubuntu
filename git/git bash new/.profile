@@ -9,6 +9,7 @@ alias jscode="cd $codePath/js"
 alias pcode="cd $codePath/php"
 alias pscode="cd $codePath/php/symfony"
 alias plcode="cd $codePath/php/laravel"
+alias lcode=plcode
 alias pycode="cd $codePath/py"
 alias pydcode="cd $codePath/py/django"
 alias gocode="cd $codePath/go/github.com/ravendcode"
