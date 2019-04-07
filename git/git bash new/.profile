@@ -3,6 +3,8 @@ alias e="cd /e"
 alias la="ls -la"
 # code
 codePath="~/Code"
+alias cppcode="cd $codePath/cpp"
+alias ccode=cppcode
 alias ncode="cd $codePath/node"
 alias jcode="cd $codePath/java"
 alias jscode="cd $codePath/js"
