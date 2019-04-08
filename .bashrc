@@ -1,65 +1,66 @@
-# some more ls aliases
+# my aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# path alias
-alias gocode='cd /mnt/d/Go/Code/src/github.com/ravendcode'
-alias jscode='cd /mnt/d/JavaScript/Code'
-alias phpcode='cd /mnt/d/PHP/Code'
-alias lcode='cd /mnt/d/PHP/Code/laravel'
-alias scode='cd /mnt/d/PHP/Code/symfony'
-alias ncode='cd /mnt/d/JavaScript/Code/node'
-alias rscode='cd /mnt/d/Rust/Code'
-alias rbcode='cd /mnt/d/Ruby/Code'
-alias rorcode='cd /mnt/d/Ruby/Code/rails'
-alias pycode='cd /mnt/d/Py/Code'
-alias pyscode='cd /mnt/d/Py/Code/sanic'
-alias pydcode='cd /mnt/d/Py/Code/django'
-alias pyfcode='cd /mnt/d/Py/Code/flask'
+alias m="cd /mnt/"
 
-# node alias
+# code
+codePath="/mnt/c/Users/Ravend/Code"
+alias cppcode="cd $codePath/cpp"
+alias ccode=cppcode
+alias ncode="cd $codePath/node"
+alias jcode="cd $codePath/java"
+alias jscode="cd $codePath/js"
+alias pcode="cd $codePath/php"
+alias pscode="cd $codePath/php/symfony"
+alias plcode="cd $codePath/php/laravel"
+alias lcode=plcode
+alias pycode="cd $codePath/py"
+alias pydcode="cd $codePath/py/django"
+alias gocode="cd $codePath/go/github.com/ravendcode"
+
+# node
 alias y='yarn'
 alias jest='./node_modules/.bin/jest'
 
-# php alias
+# php
 alias p='vendor/bin/phpunit'
 alias pf='p --filter'
 
-# laravel alias
-alias a='php artisan'
-alias as='php artisan serve'
+# symfony
+alias c="bin/console"
+alias cs="c server:run"
+alias cr="c debug:router --show-controllers"
+alias pp="bin/phpunit"
+alias ppf="p --filter"
 
-# symfony alias
-alias c='php bin/console'
-alias cs='php bin/console server:run'
+# laravel
+alias a="php artisan"
+alias as="php artisan serve"
 
-# python alias
-alias py='python3.7'
-alias pyp='sudo python3.7 -m pip'
-alias pypi='sudo python3.7 -m pip install'
-alias pyv='python3.7 -m venv venv'
-alias pyva='source venv/bin/activate'
-alias pyvd='deactivate'
-alias pypf='pip freeze > requirements.txt'
-alias pypir='pip install -r requirements.txt'
+# py
+alias pyv="py -m venv venv"
+alias pyva="venv/Scripts/activate"
+alias pyvd="deactivate"
+alias pipf="pip freeze > requirements.txt"
+alias pipr="pip install -r requirements.txt"
+alias dr="py manage.py runserver"
+alias da="django-admin.py"
 
-# git alias
-alias gi='git init'
-alias gs='git status'
-alias ga='git add .'
-alias gc='git commit -m'
-alias glog='git log'
-alias gl='git log --oneline'
-alias glg='git log --oneline --graph'
-alias gb='git branch'
-alias gb='git branch'
-alias gco='git co'
-alias gcom='git co master'
-alias gcob='git co -b'
-alias gp='git push'
-alias gph='git push heroku master'
-alias gpl='git pull'
+# git
+alias gs="git status"
+alias gc="git commit -m"
+alias ga="git add ."
+alias glog="git log"
+alias gl="git log --oneline"
+alias glg="git log --oneline --graph"
+alias gcom="git co master"
+alias gcob="git co -b"
+alias gp="git push"
+
+# subl
+alias subl='"/mnt/c/Program Files/Sublime Text 3/sublime_text.exe"'
 
 # functions
 mkcd ()
