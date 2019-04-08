@@ -3,8 +3,13 @@ alias e="cd /e"
 alias la="ls -la"
 # code
 codePath="~/Code"
+alias aspcode="cd $codePath/dotnet/aspnet"
+alias acode=aspcode
 alias cppcode="cd $codePath/cpp"
 alias ccode=cppcode
+alias dotcode="cd $codePath/dotnet"
+alias dcode=dotcode
+alias cscode="cd $codePath/cs"
 alias ncode="cd $codePath/node"
 alias jcode="cd $codePath/java"
 alias jscode="cd $codePath/js"
