@@ -57,6 +57,10 @@ alias pipr="pip install -r requirements.txt"
 alias dr="py manage.py runserver"
 alias da="django-admin.py"
 
+#rails
+alias r="bin/rails"
+alias rs="r server"
+
 # git
 alias gs="git status"
 alias gc="git commit -m"
