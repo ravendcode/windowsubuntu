@@ -1,4 +1,4 @@
-// Future versions of Hyper may add additional config options,
+﻿// Future versions of Hyper may add additional config options,
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
@@ -11,7 +11,7 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 16,
 
-    opacity: 0.86,
+    opacity: 0.99,
 
     // font family with optional fallbacks
     fontFamily: 'Hack, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
@@ -106,12 +106,13 @@ module.exports = {
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
     // shell: '',
-    shell: 'C:\\Program Files\\Git\\git-cmd.exe',
+    // shell: 'C:\\Program Files\\Git\\git-cmd.exe',
+    shell: `C:\\Windows\\System32\\bash.exe`,
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
-    // shellArgs: ['--login'],
-    shellArgs: ['--command=usr/bin/bash.exe', '-l', '-i'],
+    shellArgs: ['--login'],
+    // shellArgs: ['--command=usr/bin/bash.exe', '-l', '-i'],
 
     // for environment variables
     // env: {},
