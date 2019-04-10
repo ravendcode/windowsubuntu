@@ -46,7 +46,8 @@ alias ppf="p --filter"
 
 # laravel
 alias a="php artisan"
-alias as="php artisan serve"
+alias as="a serve"
+alias as="a route:list"
 
 # py
 alias pyv="py -m venv venv"
