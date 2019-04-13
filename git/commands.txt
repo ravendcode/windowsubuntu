@@ -51,6 +51,11 @@ git commit -m ".gitignore is now working"
 git commit --amend
 git push origin master --force
 
-# rename last commit
+# rename already pushed last commit
 git commit --amend
 git push origin master --force
+
+# rename not pushed last commit
+git rebase -i HEAD~X
+git commit --amend
+git rebase --continue
