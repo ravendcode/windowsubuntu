@@ -37,6 +37,7 @@ alias ppf="p --filter"
 alias a="php artisan"
 alias as="a serve"
 alias as="a route:list"
+alias am="a migrate"
 alias amf="a migrate:fresh"
 # py
 alias pyv="py -m venv venv"
