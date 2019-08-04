@@ -47,3 +47,5 @@ sudo apt-get install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql p
 sudo apt-get install php7.3-xdebug
 php -m
 php --ini
+
+/etc/php/7.3/cli/php.ini
