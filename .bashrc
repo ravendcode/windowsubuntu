@@ -42,7 +42,7 @@ alias cr="c debug:router --show-controllers"
 alias cmm="c make:migration"
 alias cdm="c doctrine:migrations:migrate"
 alias pp="bin/phpunit"
-alias ppf="p --filter"
+alias ppf="pp --filter"
 
 # laravel
 alias a="php artisan"
