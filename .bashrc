@@ -39,6 +39,7 @@ alias pf='p --filter'
 alias c="bin/console"
 alias cs="c server:run"
 alias cr="c debug:router --show-controllers"
+alias cm="c make:migration"
 alias pp="bin/phpunit"
 alias ppf="p --filter"
 
