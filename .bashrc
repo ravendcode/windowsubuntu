@@ -41,6 +41,7 @@ alias cs="c server:run"
 alias cr="c debug:router --show-controllers"
 alias cmm="c make:migration"
 alias cdm="c doctrine:migrations:migrate"
+alias cdf="c doctrine:fixtures:load"
 alias pp="bin/phpunit"
 alias ppf="pp --filter"
 
