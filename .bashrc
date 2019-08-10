@@ -41,7 +41,7 @@ alias cs="c server:run"
 alias cr="c debug:router --show-controllers"
 alias cmm="c make:migration"
 alias cdm="c doctrine:migrations:migrate"
-alias cdf="c doctrine:fixtures:load"
+alias cdf="c doctrine:fixtures:load -q"
 alias pp="bin/phpunit"
 alias ppf="pp --filter"
 
@@ -61,7 +61,7 @@ alias pipr="pip install -r requirements.txt"
 alias dr="py manage.py runserver"
 alias da="django-admin.py"
 
-#rails
+# rails
 alias r="bin/rails"
 alias rs="r server"
 
