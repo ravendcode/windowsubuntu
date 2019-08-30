@@ -53,8 +53,9 @@ alias am="a migrate"
 alias amf="a migrate:fresh"
 
 # py
-alias pyv="py -m venv venv"
-alias pyva="venv/Scripts/activate"
+alias py=python3.7
+alias pyvv="py -m venv venv"
+alias pyva="source venv/bin/activate"
 alias pyvd="deactivate"
 alias pipf="pip freeze > requirements.txt"
 alias pipr="pip install -r requirements.txt"

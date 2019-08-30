@@ -6,6 +6,9 @@ kill -9 $(ps aux | grep -e myProcessName | awk '{ print $2 }')
 # показать процессы
 top
 
+# показать диски
+df
+
 cd /mnt/d
 
 # laravel
