@@ -60,7 +60,7 @@ alias pyvd="deactivate"
 alias pipf="pip freeze > requirements.txt"
 alias pipr="pip install -r requirements.txt"
 alias ds="py manage.py runserver"
-alias da="django-admin.py"
+alias da="django-admin"
 
 # rails
 alias r="bin/rails"
