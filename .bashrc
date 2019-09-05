@@ -10,7 +10,6 @@ alias acode=aspcode
 alias cppcode="cd $codePath/cpp"
 alias ccode=cppcode
 alias dotcode="cd $codePath/dotnet"
-alias dcode=dotcode
 alias cscode="cd $codePath/cs"
 alias rbcode="cd $codePath/ruby"
 alias rcode=rbcode
@@ -25,6 +24,7 @@ alias plcode="cd $codePath/php/laravel"
 alias lcode=plcode
 alias pycode="cd $codePath/py"
 alias pydcode="cd $codePath/py/django"
+alias dcode=pydcode
 alias gocode="cd $codePath/go/github.com/ravendcode"
 
 # node
