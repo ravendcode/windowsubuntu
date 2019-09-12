@@ -59,8 +59,11 @@ alias pyva="source venv/bin/activate"
 alias pyvd="deactivate"
 alias pipf="pip freeze > requirements.txt"
 alias pipr="pip install -r requirements.txt"
-alias ds="py manage.py runserver"
-alias da="django-admin"
+alias pym="py manage.py"
+alias pyrs="pym runserver"
+alias pymake="pym makemigrations"
+alias pymm="pym migrate"
+alias pyda="django-admin"
 
 # rails
 alias r="bin/rails"
