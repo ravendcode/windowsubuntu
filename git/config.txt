@@ -1,5 +1,5 @@
 # C:\Users\Ravend\.gitconfig
-git config --global user.name "ravendcode"
+git config --global user.name ravendcode
 git config --global user.email ravendcode@gmail.com
 
 git config --global user.name Ar4ick
@@ -21,8 +21,7 @@ git config --global core.autocrlf false
 git config --global core.eol lf
 
 # editor
-git config --global core.editor subl
-git config --global core.editor "'c:/program files/sublime text 3/subl.exe' -w"
+git config --global core.editor "'C:\Program Files\Sublime Text\sublime_text.exe' -w"
 
 git config --list
 git config --global --list

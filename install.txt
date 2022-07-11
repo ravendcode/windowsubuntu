@@ -32,6 +32,20 @@ sudo make altinstall
 sudo apt-get install python3.7-venv
 sudo python3.7 -m pip install --upgrade pip
 
+# python3.8
+sudo apt update
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget
+cd /usr/src
+sudo wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tgz
+sudo tar -xf Python-3.8.1.tgz
+cd Python-3.8.1
+sudo ./configure --enable-optimizations
+# nproc
+make -j 4
+sudo make altinstall
+python3.8 --version
+sudo -H python3.8 -m pip install --upgrade pip
+
 # php7.2
 sudo apt-get install php
 # check installed modules
@@ -49,3 +63,7 @@ php -m
 php --ini
 
 /etc/php/7.3/cli/php.ini
+
+# php update minor version
+sudo apt-get update
+sudo apt-get upgrade php*

@@ -16,3 +16,5 @@ php artisan serve --host=0.0.0.0 --port=3000
 
 # php web server
 php -S 0.0.0.0:8000 -t public/
+
+sudo apt-get remove package_name

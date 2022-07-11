@@ -1,12 +1,15 @@
 # code
 codePath="/mnt/c/Users/Ravend/Code"
 alias ncode="cd $codePath/node"
+alias jscode="cd $codePath/js"
 alias ngcode="cd $codePath/ng"
 alias rcode="cd $codePath/react"
 alias vcode="cd $codePath/vue"
 alias ccode="cd $codePath/css"
 alias jcode="cd $codePath/java"
-alias jscode="cd $codePath/js"
+alias pycode="cd $codePath/py"
+alias dcode="cd $codePath/py/django"
+alias fcode="cd $codePath/py/flask"
 alias pcode="cd $codePath/php"
 alias pscode="cd $codePath/php/symfony"
 alias scode=pscode
@@ -42,7 +45,7 @@ alias am="a migrate"
 alias amf="a migrate:fresh"
 
 # py
-alias py=python3.7
+alias py=python3.8
 alias pyvv="py -m venv venv"
 alias pyva="source venv/bin/activate"
 alias pyvd="deactivate"
