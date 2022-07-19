@@ -2,8 +2,6 @@
 git config --global user.name ravendcode
 git config --global user.email ravendcode@gmail.com
 
-git config --global user.name Ar4ick
-git config --global user.email ar4ickgood@gmail.com
 git config --global push.default matching
 git config --global alias.co checkout
 git config --global alias.cm commit
